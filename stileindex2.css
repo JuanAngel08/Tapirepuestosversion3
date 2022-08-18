@@ -1,0 +1,782 @@
+
+ #Navbar-brand-ICONO{
+margin-right: 50%;
+margin-left: 3%;
+ color: rgb(2, 8, 43);
+ z-index: 100;
+ font-weight: bolder;
+ transition: 800ms;
+ background-image: linear-gradient(to left,  white 50%, #0003c7 50% );
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+ }
+
+ #Navbar-brand-ICONO:hover{
+  color: yellow;
+  background-position: left;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%;
+
+}
+  
+ #navbarAll{
+    background-color: #fff;
+    height: 100px;
+    z-index: 2;
+    transition: 200ms;
+ }
+
+ #ListContenNavbar:hover{
+   border-top: solid 4px #0003c7;
+  
+   border-bottom: solid 4px #fffb07;
+  transform: translateY(0%);
+  border-radius: 1%;
+   
+ }
+#ListContenNavbar{
+    color: rgb(2, 8, 43);
+    transition: all 500ms ease;   
+    font-weight: bolder;
+    
+ }
+ 
+ /* Boton flotante de whatsapp*/
+ .container-boton{
+	position:fixed;
+	right: 5%;
+	bottom: 5%;
+  z-index: 1000 !important; /* Poner las cosas por encima de otras 0  por debajo  -100 por encima*/
+  
+}
+#boton_whatsapp{
+	display: block;
+	text-decoration: none;
+	background: #00c721;
+    color: #fff;
+	height: 50px;
+	width: 50px;
+	line-height: 49px;
+	text-align: center;
+	border-radius: 50%;
+	transition: ease 0.9s;
+	animation: efecto 1.5s infinite;
+
+ 
+}
+
+#boton_whatsapp:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+
+
+
+}
+@keyframes efecto{
+0%{
+  
+	box-shadow:0 0 0 5px rgba(24, 238, 5, 0.85);
+}
+100%{
+	box-shadow: 0 0 0 1px rgba(20, 23, 212, 0);
+}
+}
+ /* fin Boton flotante de whatsapp*/
+
+ 
+
+
+#carousel1{
+width: 100%;
+  
+  background-image: url(./Tapirepuestos_propio/Styles/Img/pexels-pixabay-39693.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+}
+#carousel2{
+  width: 100%;
+ 
+  background-image: url(./Tapirepuestos_propio/Styles/Img/pexels-susuki-muchacha.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+
+}
+#carousel1::before,#carousel2::before{
+  content:"" ;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background:#020000;
+opacity: 50%;
+}
+
+
+ /*   Imagen Principal sencilla sin carousel
+ #FondoPrimeraParte{
+ width: auto;
+ height: 450px;
+ background-image: url(/Tapirepuestos_propio/Styles/Img/pexels-pixabay-39693.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+
+}
+*/
+ 
+ #caja_texto{
+
+height:auto;
+width: 40%;
+text-align: center;
+margin: auto;
+margin-top: 10%;
+margin-bottom: 10%;
+max-width: 40%; 
+position: relative;
+overflow: hidden;
+padding: 5%;
+z-index: 1;
+
+background-color: #182848d2;
+border-radius: 1%;
+backdrop-filter: blur(3px);
+
+ }
+ #Caja_texto_carosuel2{
+
+  height:auto;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 40%; 
+  position: relative;
+  overflow: hidden;
+  padding: 4%;
+  z-index: 1;
+  
+  
+  background-color: #f8f8f88f;
+  border-radius: 1%;
+  backdrop-filter: blur(3px);
+ }
+ #TituloTapirespuestosCajaPrincipal{
+ font-size: 4.0vw;
+ margin-bottom: 10%;
+ color: rgb(243, 255, 11);
+
+}
+#Mensaje,#mensaje2
+{
+  font-size: 2.2vw;
+  color: #fff;
+
+}
+
+#btn-solicitarInformacionCarousel{
+  cursor: pointer;
+  color: #ffffffd2;
+border-color:  #182848d2;
+  background-color: #00396e;
+  transition: all 400ms ease;
+ 
+  
+  font-size: 1.8vw;
+ 
+ 
+}
+
+#btn-solicitarInformacionCarousel:hover{
+  box-shadow:  5px 5px 10px rgba(239, 255, 9, 0.842);
+  transform: translateY(-20%);
+   }
+
+#Titulo-nuestrosProductos{
+margin-left: 5%;
+margin-top: 5%;
+
+}
+
+
+
+#ContaineGeneral{
+
+  background-color: #fbfbfb;
+   
+ 
+
+}
+
+#carouselExampleIndicators{
+  margin-bottom:-3%;
+}
+
+
+
+
+
+
+
+
+ /*section aceites*/
+
+
+
+
+
+
+ #espacioTitulo-aceites1{
+  
+  background-color: #182848d2;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  
+ 
+
+}
+#espacio-aceites1 h2{
+  margin-bottom: 3%;
+  margin-left: Auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgb(255, 255, 11);
+  text-shadow: 2px 2px 2px  #00396e;
+
+ }
+ #espacio-aceites1 h5{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: Auto;
+  margin-right: auto;
+  text-align: center;
+ }
+ #espacio-aceites1 img{
+   width: 40%;
+   
+ 
+ }
+ #tarjeta-especifica{
+
+
+ margin: 0%;
+
+ margin-left: Auto;
+ margin-right: auto;
+ text-align: center;
+}
+#card{
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+  border: 1px solid rgb(81, 81, 82);
+  box-shadow: 7px 7px 15px #353535; 
+
+ 
+  
+  
+}
+
+ #espacio-aceites1 img:hover, #tarjeta-especifica:hover{
+   filter:drop-shadow(0 0 20px #ffffff );
+ }
+
+ .col-sm-4{
+   margin-bottom: 2%;
+ }
+ /*  section linea de aceites azules*/
+#espacio-aceites1{
+ 
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  background-color: #00396e66;
+  height: 100%;
+  width:auto;
+  backdrop-filter: blur(4px); 
+}
+
+
+  /*  section linea de aceites amarillos*/
+
+  #espacioTitulo-aceites{
+  
+    background-color: #182848d2;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #espacio-aceites h2{
+    margin-bottom: 3%;
+    margin-left: Auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(255, 255, 11);
+    text-shadow: 2px 2px 2px  #00396e;
+  
+   }
+   #espacio-aceites h5{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: Auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   #espacio-aceites img{
+     width: 40%;
+     
+   
+   }
+   #tarjeta-especifica{
+   margin-left: Auto;
+   margin-right: auto;
+   text-align: center;
+  }
+  #card{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    border: 1px solid rgb(81, 81, 82);
+    box-shadow: 7px 7px 15px #353535; 
+    transition: all 400ms ease;    
+    cursor: pointer;
+  }
+  #card:hover{
+ transform: translateY(-5%);
+
+  }
+  
+   #espacio-aceites img:hover, #tarjeta-especifica:hover{
+     filter:drop-shadow(0 0 20px #ffffff );
+   }
+   /*Espacio aceites*/
+  #espacio-aceites{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    background-color: #fffb005b;
+    backdrop-filter: blur(4px);
+  }
+  
+  
+  #container-aceites{
+    background-color:#fffffff5;
+   /* background-image: url(/Tapirepuestos_propio/Styles/Img/Fondo-aceites.jpg); */
+  padding-bottom: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(./Tapirepuestos_propio/Styles/Img/pexels-enduro-saltando.jpg);
+  height: auto;
+    
+  }
+
+
+#btn-aceites{
+  cursor: pointer;
+  color: #ffffffd2;
+border-color:  #182848d2;
+  background-color: #00396e;
+  transition: all 400ms ease;
+}
+#btn-aceites:hover{
+box-shadow:  5px 5px 10px rgba(239, 255, 9, 0.842);
+transform: translateY(-20%);
+ }
+ 
+ /*   Espacio llantas*/
+ 
+/*  LLantas */
+#Titulo-Llantas{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: Auto;
+  margin-right: Auto;
+  text-align: center;
+  color: #010002;
+
+}
+#Titulo-Categoria
+{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: Auto;
+  text-align: center;
+  color: #fff;
+  text-shadow: #000e4a;
+  
+}
+/* Espacio de carrousel*/
+#row-llantas{
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+  position: relative;
+ overflow: hidden;
+ border-radius: 40px 1px 40px 1px;
+ border: rgba(3, 23, 97, 0.317) solid 1px;
+ box-shadow: 20px  20px 10px #000000; 
+
+ 
+
+  background-image: linear-gradient(to right,  #182848d2 50%,rgba(255, 255, 0, 0.653) /* #f4511e*/ 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition:background-position .6s ease;
+
+}
+#row-llantas:hover{
+  background-position: right;
+  color: #000e4a !important;
+
+}
+
+/* Tarjetas por independiente*/ 
+.col-sm-3{
+margin-bottom: 2%;
+}
+#section-llantas{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(./Tapirepuestos_propio/Styles/Img/Llantas/Fondos/WhatsApp\ Image\ 2022-06-08\ at\ 6.26.10\ PM.jpeg);
+  height: auto;
+ }
+
+ #cardBodyLlantas{
+  margin-left: Auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+ }
+
+
+ /* Espacio Tamaño tarjetas Pirelli*/ 
+ #LlantaCityAngel{
+  height: 160px;
+ }
+#LLantaSuperCity{
+  
+height: 160px;
+}
+#LlantaDiabloRosso{
+  height: 160px;
+}
+#LLantaMt70{
+  height: 185px;
+}
+/*Fin Espacio Tamaño tarjetas Pirelli*/ 
+
+/* Espacio Tamaño tarjetas IRC*/ 
+#LlantaGP5{
+  height: 220px;
+}
+#LlantaMb99{
+  height: 220px;
+}
+#LlantaNR53{
+  height: 220px;
+}
+#LlantaRX01{
+  height: 220px;
+}
+/*Fin Espacio Tamaño tarjetas IRC*/ 
+
+/* Espacio Tamaño tarjetas MRF*/ 
+#LlantaRIB{
+  height: 220px;
+}
+#Llantazapper{
+  height: 220px;
+}
+#Llantazfs{
+  height:  220px;
+}
+#Llantazpr{
+  height:  220px;
+}
+/* Fin Espacio Tamaño tarjetas MRF*/ 
+
+/* Espacio Tamaño tarjetas MAGIK*/ 
+#LlantaMGK001{
+  height: 220px;
+}
+#LlantaMGK191{
+  height: 220px;
+}
+#LlantaMAGIK{
+  height:  220px;
+}
+#LlantaMAGIK{
+  height:  220px;
+}
+/* Fin Espacio Tamaño tarjetas MAGIK*/ 
+
+/* Espacio Tamaño tarjetas TVS*/ 
+#LlantaATT108SF{
+  height: 220px;
+}
+#LlantaATT150{
+  height: 220px;
+}
+#LlantaATT230F{
+  height:  220px;
+}
+#LlantaATT525{
+  height:  220px;
+}
+/* Fin Espacio Tamaño tarjetas TVS*/ 
+
+/* Espacio Tamaño tarjetas MICHELLIN*/ 
+#LlantaBOPPER{
+  height: 220px;
+}
+#LlantaCITYGRIP{
+  height: 220px;
+}
+#LlantaCITYPRO{
+  height:  220px;
+}
+#LlantaPILOTSTREET{
+  height:  196px;
+}
+/* Fin Espacio Tamaño tarjetas MICHELLIN*/ 
+
+/* Espacio Tamaño tarjetas CHAOYAN*/ 
+#LlantaH626{
+  height: 220px;
+}
+#LlantaH871{
+  height: 220px;
+}
+#LlantaH917{
+  height:  220px;
+}
+#LlantaH923{
+  height:  220px;
+}
+/* Fin Espacio Tamaño tarjetas CHAOYAN*/ 
+
+#tarjeta{
+  padding: 07%;
+}
+ #parrafoLLantas{
+  text-align: center;
+ }
+  /*Footer*/
+/* iconos redes sociales footer*/
+#btn-redes{
+
+
+  cursor: pointer;
+  color: white;
+  border-color: #fff;
+  background-image: linear-gradient(to right,  transparent 0%,  #f4511e 100%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition:background-position .6s ease;
+  }
+  #btn-redes:hover{
+   background-position: right;
+  }
+ 
+#Titulo{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 35px;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#TituloFooterLogo{
+  color: yellow;
+}
+
+#Titulo-nuestrosAliados{
+  margin-top: 2%;
+text-align: center;
+}
+
+#Titulo-nuestrosAliados h2{
+ color: rgb(2, 1, 17);
+}
+#textoAliados{
+padding-left: 20%;
+padding-right: 20%;
+
+
+}
+/*   Seccion nuestros aliados */
+#ColumnaAliados{
+  margin-bottom: 2%;
+  border: none;
+  border-right: #000e4a solid 3px;
+}
+/*  section linea de aceites azules*/
+#espacio-Aliados{
+padding:2%;
+margin-right: 2%;
+ height: 100%;
+ width:auto;
+}
+
+  #espacio-Aliados h5{
+   margin-top: 5%;
+   margin-bottom: 1%;
+   margin-left: Auto;
+   margin-right: auto;
+   text-align: center;
+  }
+  #espacio-Aliados img{
+    width: 70%;
+  }
+  #tarjeta-especificaAliados{
+  margin-left: Auto;
+  margin-right: auto;
+  text-align: center;
+background-color: transparent;
+  transition: all 400ms ease;   
+  border: none;
+  cursor: pointer;
+
+  
+ }
+ #tarjeta-especificaAliados:hover {
+  transform: translateY(-5%);
+ }
+
+ #tarjeta-especificaAliados:hover +h5{
+  color: rgb(244, 244, 244);
+  background-position: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%; 
+
+ }
+ #cardAliados{
+   width: 100%;
+   height: 100%;
+   border: none;
+ }
+
+#card-text-aliados{
+  transition: 800ms;
+  background-image: linear-gradient(to left,  white 50%, #0003c7 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 2%;
+   width: 100%;
+   
+}
+
+
+#card-text-aliados2{
+  transition: 800ms;
+  background-image: linear-gradient(to left,  white 50%, #03a927 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 2%;
+   width: 100%;
+ 
+ 
+ 
+   
+}
+#card-text-aliados2:hover{
+
+  color: rgb(0, 0, 0);
+  background-position: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%;  
+}
+
+
+#card-text-aliados3{
+  transition: 800ms;
+  background-image: linear-gradient(to left,  white 50%, #d90c0c 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 2%;
+   width: 100%;
+   
+}
+#card-text-aliados3:hover{
+
+  color: rgb(11, 31, 255);
+  background-position: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%;  
+}
+
+
+#card-text-aliados4{
+  transition: 800ms;
+  background-image: linear-gradient(to left,  white 50%, #db0000 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 2%;
+  width: 100%;
+  
+ 
+   
+}
+#card-text-aliados4:hover{
+
+  color: rgb(255, 255, 255);
+  background-position: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%;  
+}
