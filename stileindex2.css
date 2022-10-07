@@ -24,9 +24,15 @@ margin-left: 3%;
   margin-bottom: 5%;
 
 }
+
+#navbarSupportedContent{
+  text-align: center;
+  border-radius:  1px 15px 1px 15px;
+  background-color: white;
+}
   
  #navbarAll{
-    background-color: #fff;
+    
     height: 100px;
     z-index: 2;
     transition: 200ms;
@@ -44,6 +50,7 @@ margin-left: 3%;
     color: rgb(2, 8, 43);
     transition: all 500ms ease;   
     font-weight: bolder;
+    
     
  }
  
@@ -183,7 +190,7 @@ backdrop-filter: blur(3px);
 }
 #Mensaje,#mensaje2
 {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   color: #fff;
 
 }
@@ -403,6 +410,36 @@ box-shadow:  5px 5px 10px rgba(239, 255, 9, 0.842);
 transform: translateY(-20%);
  }
  
+ /*tamaño img aceites */
+
+#imgMobilSuper{
+  height: 40%;
+  width: 90% !important;
+}
+#imgCelerityNaranja{
+  height: 35%;
+  width: 40% !important;
+}
+
+#imgCastrolPower1{
+  height: 40%;
+  width: 35% !important;
+}
+
+#imgYamalube{
+  height: 48%;
+  width: 60% !important;
+}
+#imgMotul{
+  height: 40%;
+  width: 60% !important;
+}
+
+#imgbajaj1{
+  height: 52%;
+  width: 38% !important;
+}
+
  /*   Espacio llantas*/
  
 /*  LLantas */

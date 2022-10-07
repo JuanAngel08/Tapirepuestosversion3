@@ -25,6 +25,11 @@ margin-left: 3%;
 
 }
   
+#navbarSupportedContent{
+  text-align: center;
+  border-radius:  1px 15px 1px 15px;
+  background-color: white;
+}
  #navbarAll{
     background-color: #fff;
     height: 100px;
