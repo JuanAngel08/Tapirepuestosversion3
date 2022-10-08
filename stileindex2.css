@@ -817,3 +817,57 @@ background-color: transparent;
   padding: 1%;
   margin-bottom: 5%;  
 }
+
+#card-text-aliados5{
+  transition: 800ms;
+  background-image: linear-gradient(to left,  white 50%, #db0000 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   margin-bottom: 2%;
+  width: 100%;
+  
+ 
+   
+}
+#card-text-aliados5:hover{
+
+  color: black;
+  background-position: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 0 20px 0 0;
+  transform: translateY(30%);
+  padding: 1%;
+  margin-bottom: 5%;  
+}
+
+#imgBajaj{
+  margin-top: 15%;
+}
+#imgYamaha{
+  margin-top: 10%;
+}
+#imgTvs{
+  margin-top: 7%;
+}
+#imgAkt{
+  margin-top: 9%;
+}
+#imgKimco{
+  margin-top: 15%;
+}
+#imgSusuki{
+  margin-top: 9%;
+}
+#imgHero{
+  height: 75%;
+  width: 80% !important;
+}
+#imgAuteco{
+  margin-top: 15%;
+}
+#imgHonda{
+  margin-top: 9%;
+}
